@@ -1,3 +1,20 @@
+
+//recursive with JavaScript
+
+function factorial(n) {
+    if (n === 0) return 1;
+    return n * factorial(n - 1)
+}
+
+console.log("factorial(n) : " , factorial(5))
+
+
+
+
+
+
+
+
 //event loop in JavScript
 
 console.log("1");
